@@ -85,5 +85,20 @@ export const books: Book[] = [
     title: 'White Nights',
     author: 'Fyodor Dostoevsky',
     link: 'https://www.amazon.com/White-Nights-Fyodor-Dostoevsky/dp/1548269352'
+  },
+  {
+    title: 'Crime and Punishment',
+    author: 'Fyodor Dostoevsky',
+    link: 'https://www.amazon.com/Punishment-Signet-Classics-Fyodor-Dostoyevsky/dp/0451530063'
+  },
+  {
+    title: 'Wilhelm Tell',
+    author: 'Friedrich Schiller',
+    link: 'https://www.amazon.com/Wilhelm-Tell-German-Friedrich-Schiller/dp/1169129528'
+  },
+  {
+    title: 'Faust - Part One',
+    author: 'Johann Wolfgang von Goethe',
+    link: 'https://www.amazon.com/Goethes-Faust-Johann-Wolfgang-Goethe/dp/0385031149'
   }
 ];
