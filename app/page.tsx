@@ -1,4 +1,4 @@
-import BookInfo from '@/books/components/BookInfo';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -14,9 +14,9 @@ export default function Home() {
         </div>
         <div className='window-body'>
           <p>Welcome to Boris Gratchev's website</p>
+          <Link href='/books'>Books</Link>
         </div>
       </div>
-      <BookInfo />
     </>
   );
 }
