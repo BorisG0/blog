@@ -1,2 +1,1 @@
-//some cool products: scissors, microwave
-//shoutout to zauberlehrling
+//some cool products: scissors, microwave, shelly plug, heater

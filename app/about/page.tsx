@@ -2,19 +2,19 @@ import Link from 'next/link';
 
 function About() {
   return (
-    <div className='window' style={{ width: '30em' }}>
+    <div className='window' style={{ width: '40em' }}>
       <div className='title-bar'>
         <div className='title-bar-text'>About this website</div>
         <div className='title-bar-controls'>
           <button aria-label='Minimize'></button>
           <button aria-label='Maximize'></button>
-          <Link href="/">
+          <Link href='/'>
             <button aria-label='Close'></button>
           </Link>
         </div>
       </div>
       <div className='window-body'>
-        <p>&lsquo;An idiot admires complexity, a genius admires simplicity&rsquo;</p>
+        <p>&quot;An idiot admires complexity, a genius admires simplicity&quot;</p>
         <p>
           Using the{' '}
           <a href='https://github.com/botoxparty/XP.css' target='_blank'>
@@ -22,6 +22,10 @@ function About() {
           </a>{' '}
           library for the look of this website
         </p>
+        <fieldset>
+          <legend>About the creator</legend>
+          <div className="field-row">Contrary to this website&apos;s design, I like Mac more than Windows</div>
+        </fieldset>
       </div>
     </div>
   );
