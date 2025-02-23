@@ -1,4 +1,4 @@
-import { Book } from '@/app/types/book';
+import { Book } from '@/app/data/books';
 
 interface BookInfoProps {
   book: Book;
@@ -17,7 +17,6 @@ function BookInfo({ book }: BookInfoProps) {
       </div>
       <div className='window-body'>
         <p><strong>Author:</strong> {book.author}</p>
-        {book.description && <p>{book.description}</p>}
       </div>
     </div>
   );
