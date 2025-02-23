@@ -1,5 +1,6 @@
 import { Book } from '@/app/data/types';
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 interface BookInfoProps {
   book: Book;
@@ -12,7 +13,6 @@ function BookInfo({ book }: BookInfoProps) {
     if (book.link) {
       const asin = book.link.split('/dp/')[1].split('/')[0];
       setAsin(asin);
-      console.log(asin);
     }
   }, [book.link]);
 
@@ -27,6 +27,7 @@ function BookInfo({ book }: BookInfoProps) {
           <img
             src={`https://images.amazon.com/images/P/${asin}.01._SCLZZZZZZZ_.jpg`}
             style={{ width: '100%', height: '95%', objectFit: 'contain' }}
+            alt={book.title}
           />
         </a>
       )}

@@ -13,7 +13,7 @@ export default function Home() {
           </div>
         </div>
         <div className='window-body'>
-          <p>Welcome to Boris Gratchev's website</p>
+          <p>Welcome to Boris Gratchev&apos;s website</p>
           <Link href='/books'>Books</Link>
         </div>
       </div>

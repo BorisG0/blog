@@ -17,7 +17,7 @@ export default function Page() {
           </div>
         </div>
         <div className='window-body'>
-          <p>Books I've read and enjoyed</p>
+          <p>Books I&apos;ve read and enjoyed</p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1em' }}>
             {books.map((book) => (
               <BookInfo key={book.title} book={book} />
