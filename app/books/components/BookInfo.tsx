@@ -1,6 +1,5 @@
 import { Book } from '@/app/data/types';
 import { useEffect, useState } from 'react';
-import Image from 'next/image';
 
 interface BookInfoProps {
   book: Book;

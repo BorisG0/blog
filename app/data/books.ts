@@ -45,5 +45,15 @@ export const books: Book[] = [
     title: 'Atomic Habits',
     author: 'James Clear',
     link: 'https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299'
+  },
+  {
+    title: '12 Rules for Life',
+    author: 'Jordan Peterson',
+    link: 'https://www.amazon.com/12-Rules-Life-Antidote-Chaos/dp/0345816021',
+  },
+  {
+    title: 'Beyond Order',
+    author: 'Jordan Peterson',
+    link: 'https://www.amazon.com/Beyond-Order-More-Rules-Life/dp/0593084640'
   }
 ];
