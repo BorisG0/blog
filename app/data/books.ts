@@ -55,5 +55,35 @@ export const books: Book[] = [
     title: 'Beyond Order',
     author: 'Jordan Peterson',
     link: 'https://www.amazon.com/Beyond-Order-More-Rules-Life/dp/0593084640'
+  },
+  {
+    title: 'The Snail on the Slope',
+    author: 'Arkady andBoris Strugatsky',
+    link: 'https://www.amazon.com/Snail-Slope-Rediscovered-Classics/dp/1613737548'
+  },
+  {
+    title: 'How to Win Friends and Influence People',
+    author: 'Dale Carnegie',
+    link: 'https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034'
+  },
+  {
+    title: 'Humble Pi: A Comedy of Maths Errors',
+    author: 'Matt Parker',
+    link: 'https://www.amazon.com/Humble-Pi-Comedy-Maths-Errors/dp/0141989149'
+  },
+  {
+    title: 'Treasure Island',
+    author: 'Robert Louis Stevenson',
+    link: 'https://www.amazon.com/Treasure-Island-Signet-Classics-Stevenson/dp/1101990325'
+  },
+  {
+    title: 'Die Verwandlung',
+    author: 'Franz Kafka',
+    link: 'https://www.amazon.com/Die-Verwandlung-Format-Taschenbuch-German/dp/9982470906'
+  },
+  {
+    title: 'White Nights',
+    author: 'Fyodor Dostoevsky',
+    link: 'https://www.amazon.com/White-Nights-Fyodor-Dostoevsky/dp/1548269352'
   }
 ];
