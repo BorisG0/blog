@@ -1,8 +1,6 @@
-'use client';
-import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 
 function About() {
-  const router = useRouter();
   return (
     <div className='window' style={{ width: '30em' }}>
       <div className='title-bar'>
@@ -10,7 +8,9 @@ function About() {
         <div className='title-bar-controls'>
           <button aria-label='Minimize'></button>
           <button aria-label='Maximize'></button>
-          <button aria-label='Close' onClick={() => router.push('/')}></button>
+          <Link href="/">
+            <button aria-label='Close'></button>
+          </Link>
         </div>
       </div>
       <div className='window-body'>

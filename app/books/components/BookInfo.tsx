@@ -1,3 +1,4 @@
+'use client';
 import { Book } from '@/app/data/types';
 import { useEffect, useState } from 'react';
 

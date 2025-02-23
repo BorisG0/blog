@@ -1,10 +1,8 @@
-'use client';
 
-import { useRouter } from 'next/navigation';
 import BookInfo from './components/BookInfo';
 import { books } from '../data/books';
+import Link from 'next/link';
 export default function Page() {
-  const router = useRouter();
   return (
     <div className='window' style={{ width: '100%' }}>
       <div className='title-bar'>
@@ -12,7 +10,9 @@ export default function Page() {
         <div className='title-bar-controls'>
           <button aria-label='Minimize'></button>
           <button aria-label='Maximize'></button>
-          <button aria-label='Close' onClick={() => router.push('/')}></button>
+          <Link href="/">
+            <button aria-label='Close'></button>
+          </Link>
         </div>
       </div>
       <div className='window-body'>

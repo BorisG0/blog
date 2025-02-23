@@ -17,6 +17,8 @@ export default function Home() {
           <Link href='/books'>Books</Link>
           <br />
           <Link href='/about'>About</Link>
+          <br />
+          <Link href='/ai-opinion'>My Opinion on AI</Link>
         </div>
       </div>
     </>
