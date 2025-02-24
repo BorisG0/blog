@@ -16,9 +16,11 @@ export default function Home() {
           <p>Welcome to Boris Gratchev&apos;s website</p>
           <Link href='/books'>Books</Link>
           <br />
-          <Link href='/about'>About</Link>
+          <Link href='/products'>Products</Link>
           <br />
           <Link href='/ai-opinion'>My Opinion on AI</Link>
+          <br />
+          <Link href='/about'>About</Link>
         </div>
       </div>
     </>
