@@ -100,5 +100,10 @@ export const books: Book[] = [
     title: 'Faust - Part One',
     author: 'Johann Wolfgang von Goethe',
     link: 'https://www.amazon.com/Goethes-Faust-Johann-Wolfgang-Goethe/dp/0385031149'
+  },
+  {
+    title: 'Nathan der Weise',
+    author: 'Gotthold Ephraim Lessing',
+    link: 'https://www.amazon.com/Nathan-Weise-dramatisches-Aufz%C3%BCgen-Gymnasiale/dp/1986504700'
   }
 ];

@@ -25,7 +25,6 @@ function About() {
         <fieldset>
           <legend>About the creator</legend>
           <div className="field-row">Living in the best country on earth and working as a developer</div>
-          <div className="field-row">Contrary to this website&apos;s design, I prefer using Mac over Windows</div>
         </fieldset>
       </div>
     </div>
