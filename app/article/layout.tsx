@@ -1,8 +1,10 @@
 import Link from 'next/link';
-import Image from 'next/image'
-import shellyPlugImage from '../images/shelly_plug.jpg'
 
-function Products() {
+export default function ArticleLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <div className='window' style={{ width: '50em' }}>
       <div className='title-bar'>
@@ -16,15 +18,8 @@ function Products() {
         </div>
       </div>
       <div className='window-body'>
-        <h2>Articles</h2>
-        <ul>
-          <li>
-            <Link href="/article/smart-heater">Smart Heater Project</Link>
-          </li>
-        </ul>
+        {children}
       </div>
     </div>
   );
-}
-
-export default Products;
+} 
