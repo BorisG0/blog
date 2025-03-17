@@ -1,6 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image'
-import shellyPlugImage from '../images/shelly_plug.jpg'
 
 function Products() {
   return (

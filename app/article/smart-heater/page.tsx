@@ -24,7 +24,7 @@ export default function SmartHeaterPage() {
         <legend>Shelly Plug US</legend>
         <Image src={shellyPlugImage} width={300} height={300} alt='Shelly Plug US' />
       </fieldset>
-      <p>Very cool and simple to use product. I'm impressed.</p>
+      <p>Very cool and simple to use product. I am impressed.</p>
     </>
   );
 }
