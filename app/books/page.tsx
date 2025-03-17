@@ -17,7 +17,7 @@ export default function Page() {
         </div>
       </div>
       <div className='window-body'>
-        <p>Books I&apos;ve read and enjoyed</p>
+        <p>Books I&apos;ve read and enjoyed, order is random</p>
         <p>Images are fetched using the Amazon API, links are not affiliate links</p>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1em' }}>
           {shuffledBooks.map((book) => (

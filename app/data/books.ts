@@ -105,5 +105,10 @@ export const books: Book[] = [
     title: 'Nathan der Weise',
     author: 'Gotthold Ephraim Lessing',
     link: 'https://www.amazon.com/Nathan-Weise-dramatisches-Aufz%C3%BCgen-Gymnasiale/dp/1986504700'
+  },
+  {
+    title: 'Romeo and Juliet',
+    author: 'William Shakespeare',
+    link: 'https://www.amazon.com/Romeo-Juliet-Folger-Shakespeare-Library/dp/0743477111'
   }
 ];
