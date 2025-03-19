@@ -1,7 +1,15 @@
+'use client'
+
 import Image from 'next/image';
 import shellyPlugImage from '../../images/shelly_plug.jpg';
+import { useContext, useEffect } from 'react';
+import { ArticleContext } from '../article-context';
 
 export default function SmartHeaterPage() {
+  const { setDescription } = useContext(ArticleContext);
+  useEffect(() => {
+    setDescription('DUI Smart Heater');
+  }, [setDescription]);
   return (
     <>
       <p>My apartments gas heater is located in the living room leaving the bedroom cold, especially in the mornings.</p>
