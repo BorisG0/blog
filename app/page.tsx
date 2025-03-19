@@ -16,11 +16,14 @@ export default function Home() {
           <p>Welcome to Boris Gratchev&apos;s website</p>
           <Link href='/books'>Books</Link>
           <br />
-          <Link href="/article/smart-heater">DUI Smart Heater</Link>
-          <br />
           <Link href='/ai-opinion'>My Opinion on AI</Link>
           <br />
           <Link href='/about'>About</Link>
+
+          <h1 style={{'fontSize': '16px'}}>Articles</h1>
+          <Link href='/article/smart-heater'>DUI Smart Heater</Link>
+          <br />
+          <Link href='/article/backup-script'>Backup your Laptop</Link>
         </div>
       </div>
     </>

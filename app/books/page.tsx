@@ -1,6 +1,6 @@
 
 import BookInfo from './components/BookInfo';
-import { books } from '../data/books';
+import books  from '../data/books';
 import Link from 'next/link';
 export default function Page() {
   const shuffledBooks = [...books].sort(() => Math.random() - 0.5);

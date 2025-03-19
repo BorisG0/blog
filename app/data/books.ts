@@ -1,6 +1,11 @@
 import { Book } from './types';
 
-export const books: Book[] = [
+const books: Book[] = [
+  {
+    title: 'The Pragmatic Programmer',
+    author: 'Andrew Hunt and David Thomas',
+    link: 'https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052'
+  },
   {
     title: 'Animal Farm and 1984',
     author: 'George Orwell',
@@ -112,3 +117,5 @@ export const books: Book[] = [
     link: 'https://www.amazon.com/Romeo-Juliet-Folger-Shakespeare-Library/dp/0743477111'
   }
 ];
+
+export default books;

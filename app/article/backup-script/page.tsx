@@ -1,8 +1,14 @@
+import Link from 'next/link';
+import books from '../../data/books';
+
 function BackupScriptPage() {
   return (
     <>
-      Reading <a>The Pragramtic Programmer</a> I came across on the exercises that describes how you would backup your laptop if suddenly
-      completely unusable.
+      Reading{' '}
+      <Link href={books[0].link || ''} target='_blank'>
+        The Pragramtic Programmer
+      </Link>{' '}
+      I came across on the exercise that describes how you would backup your laptop if suddenly completely unusable.
     </>
   );
 }
