@@ -31,7 +31,7 @@ function BookInfo({ book }: BookInfoProps) {
           />
         </a>
       )}
-      <label>by {book.author}</label>
+      {book.author && <label>by {book.author}</label>}
     </fieldset>
   );
 }
