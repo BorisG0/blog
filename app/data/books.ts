@@ -118,4 +118,10 @@ const books: Book[] = [
   }
 ];
 
+export const bible: Book = {
+  title: 'The Bible',
+  author: '',
+  image: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Christian_cross.svg'
+}
+
 export default books;

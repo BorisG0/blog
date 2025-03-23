@@ -1,6 +1,6 @@
 
 import BookInfo from './components/BookInfo';
-import books  from '../data/books';
+import books, {bible}  from '../data/books';
 import Link from 'next/link';
 export default function Page() {
   const shuffledBooks = [...books].sort(() => Math.random() - 0.5);
@@ -24,6 +24,8 @@ export default function Page() {
             <BookInfo key={book.title} book={book} />
           ))}
         </div>
+        <h1 style={{'fontSize':'20px'}}>Most important of all</h1>
+        <BookInfo book={bible}/>
       </div>
     </div>
   );

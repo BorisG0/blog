@@ -21,7 +21,7 @@ function BookInfo({ book }: BookInfoProps) {
       <legend>
         {book.title}
       </legend>
-      {book.image && <img src={book.image} alt={book.title} />}
+      {book.image && <img src={book.image} alt={book.title} style={{ width: '100%', height: '95%', objectFit: 'contain' }}/>}
       {(!book.image && asin) && (
         <a href={book.link} target='_blank'>
           <img
