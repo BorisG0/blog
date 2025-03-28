@@ -1,3 +1,6 @@
+import Image from "next/image";
+import horsepower from "@/public/Imperial_Horsepower.svg";
+
 function UnitsPage() {
   return (
     <>
@@ -36,6 +39,7 @@ function UnitsPage() {
         with a constant rotation of the earth around itself creating a timekeeping mechanism seen by everyone. Try coming up with a more logical
         time measurement and distribute it around people.
       </p>
+      <Image src={horsepower} alt="horsepower illustration" style={{width: '100%', objectFit: 'contain'}}/>
     </>
   );
 }
