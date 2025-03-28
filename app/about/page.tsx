@@ -15,6 +15,10 @@ function About() {
       </div>
       <div className='window-body'>
         <p>&quot;An idiot admires complexity, a genius admires simplicity&quot;</p>
+        <fieldset>
+          <legend>About the creator</legend>
+          <div className='field-row'>Living in the best country on earth and working as a developer</div>
+        </fieldset>
         <p>
           Using the{' '}
           <a href='https://github.com/botoxparty/XP.css' target='_blank'>
@@ -22,10 +26,7 @@ function About() {
           </a>{' '}
           library for the look of this website
         </p>
-        <fieldset>
-          <legend>About the creator</legend>
-          <div className="field-row">Living in the best country on earth and working as a developer</div>
-        </fieldset>
+        <p>All my articles are written without the help of any AI, as any article worth reading is.</p>
       </div>
     </div>
   );
