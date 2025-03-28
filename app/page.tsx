@@ -24,6 +24,8 @@ export default function Home() {
           <Link href='/article/smart-heater'>DUI Smart Heater</Link>
           <br />
           <Link href='/article/backup-script'>Backup your Laptop</Link>
+          <br />
+          <Link href='/article/imperial-units'>I love imperial units</Link>
         </div>
       </div>
     </>
