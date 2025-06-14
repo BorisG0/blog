@@ -1,7 +1,15 @@
+'use client'
+
 import Image from "next/image";
 import horsepower from "@/public/Imperial_Horsepower.svg";
+import { useContext, useEffect } from "react";
+import { ArticleContext } from "../article-context";
 
 function UnitsPage() {
+  const { setDescription } = useContext(ArticleContext);
+    useEffect(() => {
+      setDescription('Imperial Units');
+    }, [setDescription]);
   return (
     <>
       <p>
