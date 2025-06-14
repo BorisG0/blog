@@ -115,6 +115,11 @@ const books: Book[] = [
     title: 'Romeo and Juliet',
     author: 'William Shakespeare',
     link: 'https://www.amazon.com/Romeo-Juliet-Folger-Shakespeare-Library/dp/0743477111'
+  },
+  {
+    title: 'The Adventures of Tom Sawyer',
+    author: 'Mark Twain',
+    link: 'https://www.amazon.com/dp/1948132826'
   }
 ];
 
