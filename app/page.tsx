@@ -20,6 +20,8 @@ export default function Home() {
           <br />
           <Link href='https://faculty.georgetown.edu/jod/texts/twain.german.html' target='_blank'>Mein geliebtes Deutsch</Link>
           <br />
+          <Link href='/liguria'>Лигурия</Link>
+          <br />
           <Link href='/about'>About</Link>
 
           <h1 style={{'fontSize': '16px'}}>Articles</h1>
