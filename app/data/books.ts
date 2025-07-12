@@ -120,6 +120,16 @@ const books: Book[] = [
     title: 'The Adventures of Tom Sawyer',
     author: 'Mark Twain',
     link: 'https://www.amazon.com/dp/1948132826'
+  },
+  {
+    title:'Adventures of Huckleberry Finn',
+    author:'Mark Twain',
+    link: 'https://www.amazon.com/dp/0143107321'
+  },
+  {
+    title: 'The Hitchhiker\'s Guide to the Galaxy',
+    author: 'Douglas Adams',
+    link: 'https://www.amazon.com/dp/3036959548'
   }
 ];
 
