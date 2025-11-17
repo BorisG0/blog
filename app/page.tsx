@@ -13,22 +13,23 @@ export default function Home() {
           </div>
         </div>
         <div className='window-body'>
-          <h1 style={{'fontSize': '16px'}}>Boris Gratchev</h1>
+          <h1>Boris Gratchev</h1>
           <Link href='/books'>Books</Link>
           
           <br />
           <Link href='/about'>About</Link>
 
-          <h1 style={{'fontSize': '16px'}}>Essays</h1>
+          <h1>Essays</h1>
           <Link href='/article/smart-heater'>DUI Smart Heater</Link>
           <br />
           <Link href='/article/backup-script'>Backup your Laptop</Link>
           <br />
           <Link href='/article/imperial-units'>I love imperial units</Link>
 
-          <h1 style={{'fontSize': '16px'}}>Tabs, Chords, Strumming Patterns</h1>
+          <h1>Tabs, Chords, Strumming Patterns</h1>
+          <Link href='/guitar/moonlight-shadow'>Moonlight Shadow</Link>
 
-          <h1 style={{'fontSize': '16px'}}>Other</h1>
+          <h1>Other</h1>
           <Link href='/ai-opinion'>My Opinion on AI</Link>
           <br />
           <Link href='https://faculty.georgetown.edu/jod/texts/twain.german.html' target='_blank'>Mein geliebtes Deutsch</Link>

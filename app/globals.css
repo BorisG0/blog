@@ -1,0 +1,4 @@
+/* smaller headings inside the window body */
+.window-body > h1 {
+	font-size: 16px;
+}
