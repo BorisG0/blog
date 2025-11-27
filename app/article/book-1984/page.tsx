@@ -1,6 +1,8 @@
 'use client';
 
 import Image from 'next/image';
+import coverPage from "@/public/cover1984.jpeg";
+import datePage from "@/public/date1984.jpeg";
 import { useContext, useEffect } from 'react';
 import { ArticleContext } from '../article-context';
 
@@ -48,6 +50,8 @@ export default function Book1984Page() {
         bookshelf would make me part of its history. It frees me not only from my selfishness but also of the chains of physical possession. I
         will continue the books story and cherish human connection and friendship.
       </p>
+      <Image src={coverPage} alt="cover" style={{width: '50%',height: 'auto', objectFit:"contain"}}/>
+      <Image src={datePage} alt="date" style={{width: '50%', height: 'auto', objectFit:"contain"}}/>
     </>
   );
 }
