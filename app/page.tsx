@@ -27,6 +27,8 @@ export default function Home() {
           <Link href='/article/imperial-units'>I love imperial units</Link>
           <br />
           <Link href='/article/book-1984'>1984 Book</Link>
+          <br/>
+          <Link href='/article/writing'>Thinking and Juggling</Link>
 
           <h1>Tabs, Chords, Strumming Patterns</h1>
           <Link href='/guitar/moonlight-shadow'>Moonlight Shadow</Link>
