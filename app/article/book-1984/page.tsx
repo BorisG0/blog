@@ -1,8 +1,8 @@
 'use client';
 
 import Image from 'next/image';
-import coverPage from "@/public/cover1984.jpeg";
-import datePage from "@/public/date1984.jpeg";
+import coverPage from '@/public/cover1984.jpeg';
+import datePage from '@/public/date1984.jpeg';
 import { useContext, useEffect } from 'react';
 import { ArticleContext } from '../article-context';
 
@@ -22,10 +22,10 @@ export default function Book1984Page() {
         One day, going through a neighbourhood I never walked through before, I found a little free library. In it I saw it. An old beat up side
         of a book saying &quot;Nineteen Eighty-four&quot;. I knew I found gold. Taking it our revealed the beautiful old school pulp style cover
         artwork. &quot;Big Brother&quot;, &quot;Anti-Sex League&quot;, &quot;War is Peace&quot;. Carrying it home, I took an extra long route
-        through a park holding back my excitement. It&apos;s my favourite book. I read it back in Germany but didn't take it with me to the US.
-        Reading it again was always on my mind. I thought about how I would bring my copy here once I'm visiting Germany again. That was not
-        necessary now. I had the coolest version I could imagine right in my hands. Back home I admired its cover, flipped through the old
-        crusty pages and put it in my shelf. The collection in my new home is starting to take shape.
+        through a park holding back my excitement. It&apos;s my favourite book. I read it back in Germany but didn&apos;t take it with me to the
+        US. Reading it again was always on my mind. I thought about how I would bring my copy here once I&apos;m visiting Germany again. That
+        was not necessary now. I had the coolest version I could imagine right in my hands. Back home I admired its cover, flipped through the
+        old crusty pages and put it in my shelf. The collection in my new home is starting to take shape.
       </p>
       <p>
         It is only when I was packing for my first trip back to Germany when I thought about this book again. It would make a great gift to my
@@ -46,12 +46,12 @@ export default function Book1984Page() {
       </p>
       <p>
         A realization came to my mind. Giving it away and bringing it to Germany to my friend would leave me without the coolest version of my
-        favourite book - something to display in the home I'm still thinking of how to decorate. But bringing it to my friend. Having it in his
-        bookshelf would make me part of its history. It frees me not only from my selfishness but also of the chains of physical possession. I
-        will continue the books story and cherish human connection and friendship.
+        favourite book - something to display in the home I&apos;m still thinking of how to decorate. But bringing it to my friend. Having it in
+        his bookshelf would make me part of its history. It frees me not only from my selfishness but also of the chains of physical possession.
+        I will continue the books story and cherish human connection and friendship.
       </p>
-      <Image src={coverPage} alt="cover" style={{width: '50%',height: 'auto', objectFit:"contain"}}/>
-      <Image src={datePage} alt="date" style={{width: '50%', height: 'auto', objectFit:"contain"}}/>
+      <Image src={coverPage} alt='cover' style={{ width: '50%', height: 'auto', objectFit: 'contain' }} />
+      <Image src={datePage} alt='date' style={{ width: '50%', height: 'auto', objectFit: 'contain' }} />
     </>
   );
 }
