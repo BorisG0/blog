@@ -7,10 +7,11 @@ import { useContext, useEffect } from 'react';
 import { ArticleContext } from '../article-context';
 
 export default function Book1984Page() {
-  const { setDescription } = useContext(ArticleContext);
+  const { setDescription, setDate } = useContext(ArticleContext);
   useEffect(() => {
     setDescription('1984 Book');
-  }, [setDescription]);
+    setDate('10/26/2025');
+  }, [setDescription, setDate]);
   return (
     <>
       <p>

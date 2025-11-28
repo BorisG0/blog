@@ -7,10 +7,11 @@ import { ArticleContext } from '../article-context';
 import './style.css';
 
 function BackupScriptPage() {
-  const { setDescription } = useContext(ArticleContext);
+  const { setDescription, setDate } = useContext(ArticleContext);
   useEffect(() => {
     setDescription('Backup your Laptop');
-  }, [setDescription]);
+    setDate('03/23/2025')
+  }, [setDescription, setDate]);
   return (
     <>
       <p>

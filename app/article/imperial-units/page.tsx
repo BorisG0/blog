@@ -6,10 +6,11 @@ import { useContext, useEffect } from "react";
 import { ArticleContext } from "../article-context";
 
 function UnitsPage() {
-  const { setDescription } = useContext(ArticleContext);
+  const { setDescription, setDate } = useContext(ArticleContext);
     useEffect(() => {
       setDescription('Imperial Units');
-    }, [setDescription]);
+      setDate('03/28/2025')
+    }, [setDescription, setDate]);
   return (
     <>
       <p>

@@ -6,10 +6,11 @@ import { useContext, useEffect } from 'react';
 import { ArticleContext } from '../article-context';
 
 export default function SmartHeaterPage() {
-  const { setDescription } = useContext(ArticleContext);
+  const { setDescription, setDate } = useContext(ArticleContext);
   useEffect(() => {
     setDescription('DUI Smart Heater');
-  }, [setDescription]);
+    setDate('02/24/2025');
+  }, [setDescription, setDate]);
   return (
     <>
       <p>My apartments gas heater is located in the living room leaving the bedroom cold, especially in the mornings.</p>

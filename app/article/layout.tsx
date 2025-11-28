@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import Link from 'next/link';
 import { useState } from 'react';
@@ -6,8 +6,9 @@ import { ArticleContext } from './article-context';
 
 export default function ArticleLayout({ children }: { children: React.ReactNode }) {
   const [description, setDescription] = useState('');
+  const [date, setDate] = useState('');
   return (
-    <ArticleContext.Provider value={{ description, setDescription }}>
+    <ArticleContext.Provider value={{ description, setDescription, date, setDate }}>
       <div className='window' style={{ width: '50em' }}>
         <div className='title-bar'>
           <div className='title-bar-text'>{description}</div>
@@ -19,7 +20,10 @@ export default function ArticleLayout({ children }: { children: React.ReactNode 
             </Link>
           </div>
         </div>
-        <div className='window-body'>{children}</div>
+        <div className='window-body'>
+          <p>{date}</p>
+          {children}
+        </div>
       </div>
     </ArticleContext.Provider>
   );

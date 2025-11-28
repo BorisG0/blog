@@ -4,10 +4,11 @@ import { useContext, useEffect } from 'react';
 import { ArticleContext } from '../article-context';
 
 export default function WritingPage() {
-  const { setDescription } = useContext(ArticleContext);
+  const { setDescription, setDate } = useContext(ArticleContext);
   useEffect(() => {
     setDescription('Thinking and Juggling');
-  }, [setDescription]);
+    setDate('11/27/2025');
+  }, [setDescription, setDate]);
   return (
     <>
       <p>
