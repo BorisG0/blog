@@ -135,6 +135,11 @@ const books: Book[] = [
     title: 'Brave New World',
     author: 'Aldous Huxley',
     link: 'https://www.amazon.com/dp/0060850523'
+  },
+  {
+    title: 'The Autobiography of Benjamin Franklin',
+    author: 'Benjamin Franklin',
+    link: 'https://www.amazon.com/dp/1640957022'
   }
 ];
 
